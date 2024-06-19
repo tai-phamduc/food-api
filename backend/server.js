@@ -3,7 +3,7 @@ const app = express()
 const mongoose = require("mongoose")
 const asyncHandler = require("express-async-handler")
 
-mongoose.connect("mongodb://127.0.0.1:27017/food-app")
+mongoose.connect("mongodb+srv://admin:<password>@supportdesk.ergkcm6.mongodb.net/?retryWrites=true&w=majority&appName=supportdesk")
   .then(() => console.log("Successfully connect to mongod"))
   .catch((err) => console.log("Cannot connect to mongod", err))
 
