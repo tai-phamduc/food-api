@@ -51,4 +51,4 @@ app.listen(5000, () => {
   console.log("Port 5000 has been started")
 })
 
-module.exports = app
+export default app
