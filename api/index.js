@@ -1,3 +1,3 @@
-import app from '../backend/server'
+const app = require("./backend/server")
 
-export default app
+module.exports = app
